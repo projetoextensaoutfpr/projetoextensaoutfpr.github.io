@@ -51,7 +51,7 @@ document.addEventListener('keypress', function(enter){
 firebase.auth().onAuthStateChanged(firebaseUser => {
     if(firebaseUser){
         console.log(firebaseUser);
-        window.location.href = "index.html";
+        window.location.href = "principal.html";
     }
     else{
         console.log("Não está logado");
